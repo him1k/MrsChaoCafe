@@ -9,6 +9,7 @@ to be
 <img width="1920" height="1080" alt="epc2NOT" src="https://github.com/user-attachments/assets/8ec87baf-dd34-44af-a089-a775ba59b9e1" />
 
 database
-<img width="1920" height="1080" alt="epc2NOT" src="https://github.com/user-attachments/assets/76cfa9d8-2966-460d-9941-1a52ec9877fa)" />
+![database](https://github.com/user-attachments/assets/ec936f83-6547-4f68-8e21-1e5ef4c105cb)
+
 
 
