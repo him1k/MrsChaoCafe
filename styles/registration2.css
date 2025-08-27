@@ -1,0 +1,195 @@
+/*@import url('https://fonts.googleapis.com/css?family=PT+Sans');*/
+
+body{
+    background: whitesmoke;
+/*    background: #6e2121;*/
+    backdrop-filter: blur(5px);
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+/*кнопка bootstrap*/
+/*.btn-primary {
+!*    background-color: black;*!
+    border-color: black;
+}*/
+
+/*кнопка bootstrap отключена*/
+.btn-primary.disabled, .btn-primary:disabled {
+    background-color: darkred;
+    border-color: darkred;
+}
+/*контейнер*/
+.container{
+    background: white;
+    border-radius: 5px;
+    width: 400px;
+    max-width: 100%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    overflow: hidden;
+}
+/*заголовок*/
+.header {
+    padding: 20px 30px;
+    border-bottom: 1px solid #684f40;
+}
+/*заголовок h1*/
+#header h1 {
+    text-align: center;
+    margin:0;
+    font-size: 30px;
+    color: Black;
+}
+.form{
+    padding: 25px 35px;
+}
+.form-control{
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+/*ввод*/
+.form-control input {
+    display: block;
+    border-radius: 3px;
+    border: 1px solid black;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+}
+
+/*значки одобрения начало*/
+.form-control.success input {
+    border: 2px solid #a7c957;
+}
+
+.form-control.success i.fa-check {
+    color: #a7c957;
+    visibility: visible;
+}
+
+.form-control.error input {
+    border: 2px solid #ae2012;
+}
+
+.form-control.error i.fa-exclamation {
+    color: #ae2012;
+    visibility: visible;
+}
+
+.form-control.error small{
+    color: #ae2012;
+    visibility: visible;
+}
+/*значки одобрения конец*/
+
+.form-control i {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    visibility: hidden;
+}
+
+.form-control small {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+/*кнопка регистрация*/
+.form button{
+    display: block;
+    background: red;
+    width: 100%;
+    padding: 10px;
+}
+
+.form-control:focus {
+    color: #da5767;
+    background-color: #da5767;
+    border: 3px solid #da5767;
+    outline: 0;
+    box-shadow: none;
+}
+
+/*кнопки*/
+.btn{
+    padding: 0.6rem 1.2rem;
+/*    background: #da5767;*/
+/*    border: 2px solid #da5767;*/
+    border: none;
+}
+/*кнопки с наводкой*/
+.btn-primary:hover {
+    background: #da5767;
+/*    background-color: red;*/
+    border-color: #da5767;
+    transition: .3s;
+
+}
+/*ввод при нажатии */
+.form-control:focus {
+    color: #000000;
+    background-color: #ffffff;
+    border: 3px solid #da5767;
+    outline: 0;
+    box-shadow: none;
+}
+/*мелкие формы*/
+.form-control{
+    background-color: white;
+    padding-bottom: 25px;
+    margin-bottom: 1.3rem;
+}
+/*ссылка*/
+a{
+    position: relative;
+    color: red;
+/*    color: #ffe6e6;*/
+    margin-right: 20px;
+    text-decoration: none;
+}
+/*ссылка с наводкой*/
+a:hover{
+    color: #da5767;
+    text-decoration: none;
+}
+.box {
+    background: white;
+    position: relative;
+    top: 65px;
+    right: 15px;
+    border-radius: 1px;
+/*    border: 3px solid #e80f3a;*/
+    font-size: 20px;
+}
+
+.parent-element {
+    text-align: center;
+}
+
+.hidden-element {
+    display: none;
+}
+
+.parent-element:hover .hidden-element {
+/*    transition-delay: 5s;*/
+    color: #050000;
+    display: block;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+}
+
+

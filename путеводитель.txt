@@ -1,0 +1,20 @@
+1) вход index.php 
+2) клиент
+2.1 client.php ()
+2.2 client_order.php (делать заказы)
+3) официант
+3.1 tabs (табы)
+3.2 officiant.php (список блюд + форма заказа)
+3.3 officiant3.php (список заказанных блюд)
+обновление заказов
+3.4 order_officiant.php 
+3.5 order_officiant1.php 
+4) повар
+4.1 cook.php (форма для повара)
+4.2 update_order.php (обновление статуса заказа)
+5) регистрация сотрудников
+registration employee.php
+6) всё, что связано с email отключено
+(save_rss,send_email)
+7) получение заказа
+get_order.php

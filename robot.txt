@@ -1,0 +1,22 @@
+User-agent: GoogleBot
+Allow: /about.php
+Allow: /index.php
+Allow: /contact.php
+Allow: /vacancy.php
+Allow: /registration.php
+Allow: /login.php
+Disallow: /client.php
+Crawl-Delay: 0.5
+
+User-agent: Yandex
+Allow: /about.php
+Allow: /index.php
+Allow: /contact.php
+Allow: /vacancy.php
+Allow: /registration.php
+Allow: /login.php
+Disallow: /client.php
+Crawl-Delay: 0.5
+
+Sitemap: https://misterchaoo.ru/sitemap/sitemap.xml
+Host: https://misterchaoo.ru

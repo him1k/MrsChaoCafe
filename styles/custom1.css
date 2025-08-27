@@ -1,0 +1,47 @@
+body {
+    background-color: whitesmoke;
+}
+
+
+
+
+.box {
+    max-height: 500px; /* Максимальная высота списка */
+    overflow-y: auto; /* Автоматическая прокрутка по вертикали */
+}
+
+/*.box {
+    display: flex;
+    flex-direction: column; !* Убедитесь, что элементы списка расположены вертикально *!
+    overflow-y: auto; !* Добавляем вертикальную прокрутку *!
+    height: 300px; !* Задаем фиксированную высоту, чтобы избежать чрезмерного роста при большом количестве элементов *!
+}*/
+
+/* Пример стилей для списка */
+.dish-list .list-group-item {
+    padding: 10px; /* Увеличивает отступы в элементах списка */
+    font-size: 14px; /* Устанавливает размер шрифта */
+
+    position: relative;
+    display: block;
+    /*    padding: 0.5rem 1rem;*/
+/*    padding: 0rem 1rem;*/
+    color: #212529;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/*
+.page-footer .footer-dark-contact {
+    position: sticky;
+    bottom: 0;
+}*/
+
+/*
+.highlight {
+    background-color: #f0f8ff; !* Цвет фона для выделения *!
+    border: 2px solid #007bff; !* Обводка *!
+    color: #007bff; !* Цвет текста *!
+}
+*/
