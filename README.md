@@ -11,5 +11,16 @@ to be
 database
 ![database](https://github.com/user-attachments/assets/ec936f83-6547-4f68-8e21-1e5ef4c105cb)
 
+wireframe
+menu
+<img width="1920" height="1080" alt="wireframeMenu png" src="https://github.com/user-attachments/assets/d5c12e70-591f-4d81-9b13-2b7bcf479328" />
+Waiter
+<img width="1920" height="1080" alt="wireframeOf1" src="https://github.com/user-attachments/assets/a461f213-77cb-418b-b1bc-3b1c60a59cbf" />
+<img width="1920" height="1080" alt="wireframeOf2" src="https://github.com/user-attachments/assets/506e698d-bef4-4843-8c29-3060db93f227" />
+Cook
+<img width="1920" height="1080" alt="wireframeCook" src="https://github.com/user-attachments/assets/3e3c5842-7848-4912-9218-910eecc5e571" />
+
+
+
 
 
